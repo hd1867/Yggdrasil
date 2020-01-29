@@ -21,6 +21,7 @@ public class Yggdrasil {
         //Create a window
         window = new Window("Yggdrasil", 800, 600);
         Box box = new Box("Box1", false, true, 1, 300, 300, 50, 20, Color.red);
+        PhysCircle circle = new PhysCircle("Circle1", false, true, 1, 500, 300, 20, Color.BLUE);
         Graphics g = window.getGraphics();
 
         long lastLoopTime = System.nanoTime();

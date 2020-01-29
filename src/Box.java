@@ -40,7 +40,6 @@ public class Box extends PhysicsObject {
 
     @Override
     public void render(Graphics g) {
-        g.clearRect(getLocation().x, getLocation().y, rectangle.width, rectangle.height);
         g.setColor(color);
         g.drawRect(getLocation().x, getLocation().y, rectangle.width, rectangle.height);
         g.fillRect(getLocation().x, getLocation().y, rectangle.width, rectangle.height);
